@@ -1,0 +1,24 @@
+# ── Personal knowledge content (not for sharing) ──────────────────────────────
+_raw_sources/
+
+# Topic note folders — exclude processed notes but keep canvas/base at root
+# Add each topic folder here as you create them:
+ai-engineering/
+vibe-coding/
+
+# ── Obsidian personal config ───────────────────────────────────────────────────
+.obsidian/
+
+# ── Claude Code ────────────────────────────────────────────────────────────────
+# Local permission history (auto-generated, not needed by others)
+.claude/settings.local.json
+
+# ── Environment / secrets ──────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+
+# ── OS / Editor ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,18 @@
+{
+  "topics": [
+    {
+      "slug": "ai-engineering",
+      "label": "AI Engineering",
+      "canvas": "ai-engineering.canvas",
+      "base": "ai-engineering.base",
+      "folder": "ai-engineering/"
+    },
+    {
+      "slug": "vibe-coding",
+      "label": "Vibe Coding",
+      "canvas": "vibe-coding.canvas",
+      "base": "vibe-coding.base",
+      "folder": "vibe-coding/"
+    }
+  ]
+}

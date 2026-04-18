@@ -1,0 +1,12 @@
+{
+  "last_used": {
+    "prompt": "You are a knowledge extraction assistant. Given the following raw content, extract the key concepts, mechanisms, and insights. For each concept, produce a standalone Markdown note with: a clear title, a one-sentence summary, detailed explanation, and key takeaways. Output each note separated by ---NOTE---.",
+    "topic": "ai-engineering",
+    "used_at": "2026-04-18"
+  },
+  "templates": {
+    "default": "You are a knowledge extraction assistant. Given the following raw content, extract the key concepts, mechanisms, and insights. For each concept, produce a standalone Markdown note with: a clear title, a one-sentence summary, detailed explanation, and key takeaways. Output each note separated by ---NOTE---.",
+    "technical-deep-dive": "You are a technical knowledge extraction assistant. Given the following content, identify the core technical concepts, architectural decisions, and implementation details. For each concept, produce a standalone Markdown note with: a precise title, a one-sentence technical summary, in-depth explanation with examples or pseudocode where relevant, and practical takeaways for implementation. Output each note separated by ---NOTE---.",
+    "concept-map": "You are a knowledge synthesis assistant. Given the following content, identify the main concepts and how they relate to each other. For each concept, produce a standalone Markdown note with: a clear title, a one-sentence summary, explanation of the concept, and explicit links to related concepts mentioned in the source. Output each note separated by ---NOTE---."
+  }
+}

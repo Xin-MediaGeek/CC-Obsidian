@@ -1,0 +1,12 @@
+filters:
+  folder: ai-engineering
+fields:
+  - title
+  - date
+  - summary
+  - tags
+  - status
+  - source_url
+sort:
+  field: date
+  direction: desc
