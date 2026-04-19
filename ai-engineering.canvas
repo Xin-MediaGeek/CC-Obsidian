@@ -1,20 +1,20 @@
 {
-  "nodes": [
-    {"id":"grp001","type":"group","label":"职业定位","x":0,"y":0,"width":610,"height":460,"color":"5"},
-    {"id":"grp002","type":"group","label":"技术架构","x":670,"y":0,"width":610,"height":460,"color":"4"},
-    {"id":"grp003","type":"group","label":"学习路线","x":1340,"y":0,"width":320,"height":620,"color":"3"},
-    {"id":"nd0001","type":"text","text":"**AI工程师与算法工程师的职业区分**\n_AI工程师专注应用落地，算法工程师专注模型训练，两者职责截然不同_\n\n[[20260418_ai工程师与算法工程师的职业区分]]","x":20,"y":60,"width":275,"height":180},
-    {"id":"nd0002","type":"text","text":"**给应届生和在职程序员的转型建议**\n_应届生做完整项目，在职者从现有业务切入叠加AI能力_\n\n[[20260418_给应届生和在职程序员的转型建议]]","x":315,"y":60,"width":275,"height":180},
-    {"id":"nd0003","type":"text","text":"**AI技术体系六层架构**\n_从模型层到应用层共六层，程序员从模型接口层介入工程化部分_\n\n[[20260418_ai技术体系六层架构]]","x":690,"y":60,"width":275,"height":180},
-    {"id":"nd0004","type":"text","text":"**程序员转型AI工程师的技术栈建议**\n_按语言背景推荐框架，配合本地开源模型低成本学习_\n\n[[20260418_程序员转型ai工程师的技术栈建议]]","x":985,"y":60,"width":275,"height":180},
-    {"id":"nd0005","type":"text","text":"**AI工程师学习路径三阶段**\n_1-2周基础→3-4周完整系统→持续生产化，不跳步_\n\n[[20260418_ai工程师学习路径三阶段]]","x":1360,"y":50,"width":280,"height":155},
-    {"id":"nd0006","type":"text","text":"**AI应用开发的常见误区**\n_无需精通数学，RAG非万能，Fine-tuning是最后手段_\n\n[[20260418_ai应用开发的常见误区]]","x":1360,"y":235,"width":280,"height":155},
-    {"id":"nd0007","type":"text","text":"**AI应用开发的核心结论与时机**\n_当前是最佳入场时机，从最小产品开始边学边做_\n\n[[20260418_ai应用开发的核心结论与时机]]","x":1360,"y":420,"width":280,"height":155}
-  ],
-  "edges": [
-    {"id":"ed001","fromNode":"nd0001","fromSide":"right","toNode":"nd0002","toSide":"left","label":"转型路径"},
-    {"id":"ed002","fromNode":"nd0003","fromSide":"right","toNode":"nd0004","toSide":"left","label":"对应工具"},
-    {"id":"ed003","fromNode":"nd0005","fromSide":"bottom","toNode":"nd0006","toSide":"top","label":"避免陷阱"},
-    {"id":"ed004","fromNode":"nd0006","fromSide":"bottom","toNode":"nd0007","toSide":"top","label":"得出结论"}
-  ]
+	"nodes":[
+		{"id":"grp001","type":"group","label":"职业定位","x":0,"y":0,"width":610,"height":460,"color":"5"},
+		{"id":"grp002","type":"group","label":"技术架构","x":670,"y":0,"width":610,"height":460,"color":"4"},
+		{"id":"grp003","type":"group","label":"学习路线","x":1340,"y":0,"width":320,"height":620,"color":"3"},
+		{"id":"nd0001","type":"text","text":"**AI工程师与算法工程师的职业区分**\n_AI工程师专注应用落地，算法工程师专注模型训练，两者职责截然不同_\n\n[[20260418_ai工程师与算法工程师的职业区分]]","x":20,"y":60,"width":275,"height":180},
+		{"id":"nd0002","type":"text","text":"**给应届生和在职程序员的转型建议**\n_应届生做完整项目，在职者从现有业务切入叠加AI能力_\n\n[[20260418_给应届生和在职程序员的转型建议]]","x":315,"y":60,"width":275,"height":180},
+		{"id":"nd0003","type":"text","text":"**AI技术体系六层架构**\n_从模型层到应用层共六层，程序员从模型接口层介入工程化部分_\n\n[[20260418_ai技术体系六层架构]]","x":690,"y":60,"width":275,"height":180},
+		{"id":"nd0004","type":"text","text":"**程序员转型AI工程师的技术栈建议**\n_按语言背景推荐框架，配合本地开源模型低成本学习_\n\n[[20260418_程序员转型ai工程师的技术栈建议]]","x":985,"y":60,"width":275,"height":180},
+		{"id":"nd0005","type":"text","text":"**AI工程师学习路径三阶段**\n_1-2周基础→3-4周完整系统→持续生产化，不跳步_\n\n[[20260418_ai工程师学习路径三阶段]]","x":1360,"y":50,"width":280,"height":155},
+		{"id":"nd0006","type":"text","text":"**AI应用开发的常见误区**\n_无需精通数学，RAG非万能，Fine-tuning是最后手段_\n\n[[20260418_ai应用开发的常见误区]]","x":1360,"y":235,"width":280,"height":155},
+		{"id":"nd0007","type":"text","text":"**AI应用开发的核心结论与时机**\n_当前是最佳入场时机，从最小产品开始边学边做_\n\n[[20260418_ai应用开发的核心结论与时机]]","x":1360,"y":420,"width":280,"height":155}
+	],
+	"edges":[
+		{"id":"ed001","fromNode":"nd0001","fromSide":"right","toNode":"nd0002","toSide":"left","label":"转型路径"},
+		{"id":"ed002","fromNode":"nd0003","fromSide":"right","toNode":"nd0004","toSide":"left","label":"对应工具"},
+		{"id":"ed003","fromNode":"nd0005","fromSide":"bottom","toNode":"nd0006","toSide":"top","label":"避免陷阱"},
+		{"id":"ed004","fromNode":"nd0006","fromSide":"bottom","toNode":"nd0007","toSide":"top","label":"得出结论"}
+	]
 }

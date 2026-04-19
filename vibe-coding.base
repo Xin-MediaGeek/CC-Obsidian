@@ -1,12 +1,14 @@
 filters:
-  folder: vibe-coding
-fields:
-  - title
-  - date
-  - summary
-  - tags
-  - status
-  - source_url
-sort:
-  field: date
-  direction: desc
+  and:
+    - file.inFolder("vibe-coding")
+views:
+  - type: table
+    name: All Notes
+    order:
+      - file.name
+      - title
+      - date
+      - summary
+      - tags
+      - status
+      - source_url

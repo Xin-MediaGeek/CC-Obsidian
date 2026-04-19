@@ -1,8 +1,8 @@
 {
   "last_used": {
     "prompt": "You are a knowledge extraction assistant. Given the following raw content, extract the key concepts, mechanisms, and insights. For each concept, produce a standalone Markdown note with: a clear title, a one-sentence summary, detailed explanation, and key takeaways. Output each note separated by ---NOTE---.",
-    "topic": "ai-engineering",
-    "used_at": "2026-04-18"
+    "topic": "vibe-coding",
+    "used_at": "2026-04-19"
   },
   "templates": {
     "default": "You are a knowledge extraction assistant. Given the following raw content, extract the key concepts, mechanisms, and insights. For each concept, produce a standalone Markdown note with: a clear title, a one-sentence summary, detailed explanation, and key takeaways. Output each note separated by ---NOTE---.",
